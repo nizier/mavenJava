@@ -1,0 +1,330 @@
+.left-tool {
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	z-index: 1005;
+	overflow: hidden;
+	width: 235px;
+	border-radius: 3px;
+	background: #fff;
+	box-shadow: 2px 5px 5px rgba(0, 0, 0, .3);
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.clearfix:after, .clearfix:before {
+	clear: both;
+	display: table;
+	content: ""
+}
+.header-logo {
+	float: left;
+	margin-top: 5px;
+	margin-left: 18px;
+	width: 125px;
+	height: 24px;
+	background: url(../images/logo.png);
+	font-weight: bolder;
+    font-size: 15px;
+}
+#menu_display {
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+	width: 19px;
+	height: 15px;
+	border: 0;
+	background: url(../img/GisLocation/indexImg.png) -324px 0 no-repeat;
+	cursor: pointer
+}
+
+#menu_display:hover {
+	background-position: -834px 0
+}
+	.classify-box {
+	float: left;
+	width: 42px;
+	border-right: 1px solid #eee;
+	background: #fff
+}
+
+
+
+.classify,.classify-list {
+	position: relative
+}
+
+.classify-list {
+	display: block;
+	width: 38px;
+	height: 38px;
+	cursor: pointer
+}
+
+.collection.active,.place.active,.special.active {
+	background: #337fe5
+}
+
+.specialNav {
+	position: absolute;
+	top: 11px;
+	left: 8px;
+	width: 20px;
+	height: 20px;
+	background: url(../img/GisLocation/subject.png) 0 0 no-repeat
+}
+
+.specialNav.active {
+	top: 11px;
+	left: 8px;
+	width: 22px;
+	height: 21px;
+	background: url(../img/GisLocation/indexImg.png) no-repeat;
+	background-position: -407px 0
+}
+
+.placeNav {
+	position: absolute;
+	top: 11px;
+	left: 8px;
+	width: 20px;
+	height: 20px;
+	background: url(../img/GisLocation/indexImg.png) -814px 0 no-repeat
+}
+
+.placeNav.active {
+	top: 11px;
+	left: 8px;
+	width: 20px;
+	height: 20px;
+	background-position: -794px 0
+}
+
+.collectionNav {
+	position: absolute;
+	top: 15px;
+	left: 17px;
+	width: 23px;
+	height: 23px;
+	background: url(../img/GisLocation/indexImg.png) -539px 0 no-repeat
+}
+
+.collectionNav.active {
+	top: 1pc;
+	left: 18px;
+	width: 22px;
+	height: 22px;
+	background-position: -385px 0
+}
+
+.classify-content {
+	float: right;
+	display: none;
+	overflow: hidden;
+	margin-left: 0px;
+	background: #fff
+}
+
+	.classify-box {
+		height: 400px
+	}
+	.classify-content,.search-content {
+		height: 400px !important
+	}
+	#subjectTree {
+		height: 400px
+	}
+
+
+.classify-tool {
+	line-height: 55px
+}
+
+.clear-all,.clear-search {
+	float: right;
+	margin-top: 22px;
+	margin-right: 15px;
+	padding-left: 22px;
+	color: #3f88e7;
+	line-height: 16px;
+}
+
+.clear-all span {
+	display: none;
+	float: left;
+	margin-top: 11px;
+	margin-right: 5px;
+	width: 11px;
+	height: 13px;
+	background: url(../img/GisLocation/indexImg.png) -28px 0 no-repeat
+}
+
+#subjectTree {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 35px;
+	padding: 0;
+	width: 241px
+}
+
+.classify-title {
+	float: left;
+	color: #333;
+}
+
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	margin-top: -20px;
+	margin-left: -20px;
+	text-align: center
+}
+
+.classify-children .children-lv1 {
+	margin-top: 6px;
+	width: 96%;
+	border: 1px solid #eee
+}
+
+.lv1-title {
+	display: block;
+	padding-left: 10px;
+	height: 40px;
+	color: #000;
+	line-height: 40px;
+}
+
+.children-lv1:first-child {
+	margin-top: 0
+}
+
+.classify-children .active .lv1-title {
+	background: #eaf1fb;
+	color: #4187e7
+}
+
+.classify-children .lv1-title:hover {
+	background: #eaf1fb
+}
+.classify-children .checkbox {
+	float: left;
+	display: block;
+	margin-top: 1px;
+	width: 14px;
+	height: 14px;
+	background: url(../img/GisLocation/indexImg.png) -90px 0 no-repeat
+}
+
+.classify-children .help {
+	float: right;
+	width: 11px;
+	height: 15px;
+	background: url(../img/GisLocation/list-help.png) 0 0 no-repeat
+}
+
+.classify-children .help:hover {
+	background: url(../img/GisLocation/list-help-over.png) 0 0 no-repeat
+}
+
+.classify-children .ischecked .checkbox {
+	background-position: -78pt 0
+}
+
+.classify-children .ischecked .lv2-info {
+	height: auto
+}
+
+.floattool {
+	
+ 	width: 38px; 
+ 	height: 80px; 
+ 	position: absolute; 
+ 	right: 12px; 
+ 	top: 45%; 
+ 	margin-top: 100px; 
+ 	background: white; 
+ 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3); 
+ 	z-index: 999 
+}
+
+.floattool>div {
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer
+}
+
+.floattool div.v_separator {
+	width: 20px;
+	height: 1px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 9px
+}
+
+.floattool .icon {
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin: 8px
+}
+/* .floattool .layer_nav .icon { */
+/* 	background: url(../img/GisLocation/indexImg.png) -495px 0 no-repeat */
+/* } */
+
+/* .floattool .table_nav .icon { */
+/* 	background: url(../img/tjb.png) -517px 0 no-repeat */
+/* } */
+
+/* .floattool .graphic_nav .icon { */
+/* 	background: url(../img/GisLocation/indexImg.png) -473px 0 no-repeat */
+/* } */
+
+/* .floattool .time_nav .icon { */
+/* 	background: url(../img/GisLocation/indexImg.png) -451px 0 no-repeat */
+/* } */
+.main_table, .main_graphic,.area{
+	display: none
+}
+.down-up {
+	clear: both;
+	width: 100%;
+	height: 31px;
+	border-top: 1px solid #eee;
+	background: #fff;
+	text-align: center;
+	cursor: pointer
+}
+
+.down-up-btn {
+	display: inline-block;
+	margin-top: 11px;
+	width: 0;
+	height: 0;
+	border-top: 0;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #ccc;
+	border-left: 8px solid transparent
+}
+#menu_display {
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+	width: 19px;
+	height: 15px;
+	border: 0;
+	background: url(../img/GisLocation/indexImg.png) -324px 0 no-repeat;
+	cursor: pointer
+}
+
+#menu_display:hover {
+	background-position: -834px 0
+}
+.left-down {
+	position: relative;
+	display: none
+}
+#tr:hover{
+	background:#5599FF;
+}

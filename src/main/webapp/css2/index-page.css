@@ -1,0 +1,95 @@
+<style type="text/css">
+a {
+	cursor: pointer;
+}
+
+.modal-header {
+	cursor: move;
+	padding: 8px;
+	background: #fafafa;
+}
+
+.modal-body {
+	padding-bottom: 5px;
+}
+
+em.invalid {
+	display: block;
+	color: #A90329;
+	font-style: normal;
+}
+
+input.required {
+	/* 	background : url(img/input_bg.png) no-repeat scroll; */
+	background-position: 100% 0;
+}
+
+.selected-tr td {
+	/*background :red;*/
+	
+}
+/*.table-striped>tbody>tr:nth-child(odd)>td{background-color:#f9f9f9}*/
+.modal-header .close {
+	font-size: 28px;
+}
+
+.smart-form .input {
+	font: 13px/16px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.select2-drop .clearfix .col-sm-3 {
+	width: 100%;
+}
+
+.object-select {
+	height: 32px;
+}
+
+.select2-results {
+	padding: 3px 0px 4px;
+}
+
+.form-menu .btn {
+	padding: 5px 15px;
+	margin: 1px 0px;
+}
+
+.tab-form-menu {
+	height: 40px;
+}
+
+.tab-form-menu a {
+	padding: 5px 10px;
+	margin: 5px 1px;
+}
+
+.right-side-bar {
+	border: 1px solid red;
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	width: 800px;
+	height: 600px;
+}
+
+.change-markup {
+	color: red;
+	border-bottom: 1px dashed red;
+}
+
+.ui-dialog {
+	border-radius: 0px;
+}
+
+.ui-widget-header, .ui-dialog-title {
+	font-weight: 100 !important;
+}
+
+.dropzone {
+	min-height: 180px;
+}
+
+nav>li>ul>li::before {
+	width: 20px;
+}
+</style>

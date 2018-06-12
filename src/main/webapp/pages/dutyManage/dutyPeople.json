@@ -1,0 +1,12 @@
+{
+    "dutyPeople":[
+        {"dutyName":"欧阳文","dutyLeader":"欧阳文","dutyDate":"2017-7-30","dutyNamenight":"欧阳文","dutyLeadernight":"欧阳文"},
+        {"dutyName":"欧阳文","dutyLeader":"欧阳文","dutyDate":"2017-8-1","dutyNamenight":"欧阳文","dutyLeadernight":"欧阳文"},
+        {"dutyName":"欧阳文","dutyLeader":"欧阳文","dutyDate":"2017-8-26","dutyNamenight":"欧阳文","dutyLeadernight":"欧阳文"},
+        {"dutyName":"欧阳文","dutyLeader":"欧阳文","dutyDate":"2017-8-10","dutyNamenight":"欧阳文","dutyLeadernight":"欧阳文"},
+        {"dutyName":"欧阳文","dutyLeader":"欧阳文","dutyDate":"2017-7-31","dutyNamenight":"欧阳文","dutyLeadernight":"欧阳文"},
+        {"dutyName":"欧阳文","dutyLeader":"欧阳文","dutyDate":"2017-9-2","dutyNamenight":"欧阳文","dutyLeadernight":"欧阳文"},
+        {"dutyName":"欧阳文","dutyLeader":"欧阳文","dutyDate":"2017-9-26","dutyNamenight":"欧阳文","dutyLeadernight":"欧阳文"},
+        {"dutyName":"欧阳文","dutyLeader":"欧阳文","dutyDate":"2017-9-10","dutyNamenight":"欧阳文","dutyLeadernight":"欧阳文"}
+    ]
+}

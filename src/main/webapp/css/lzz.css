@@ -1,0 +1,120 @@
+a:hover{
+	text-decoration: none;
+}
+
+.window {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 250px;
+	width: 400px;
+	border: lightgray 1px solid;
+	border-radius: 5px;
+	z-index: 100;
+	float:left;
+	background-color:white;
+	overflow:hidden;
+}
+
+.hori-menu {
+	position: absolute;
+	left: 73%;
+	top: 3%;
+	height: 40px;
+	width: 300px;
+	border: lightgray 1px solid;
+	border-radius: 8px;
+	z-index: 100;
+	float:left;
+	background-color:white;
+	overflow:hidden;
+}
+
+.title-event {
+	height: 35px;
+	background-color: rgb(67, 94, 129);
+	line-height: 35px;
+	color: white;
+	text-indent: 1em;
+	z-index: 91;
+}
+
+.remove-btn{
+	top: 6%;
+	border: none;
+	background-color: rgb(67, 94, 129) ;
+	z-index: 92;
+	
+}
+
+#remove-btn{
+	position: relative;
+	left: 63%;
+	color:white;
+}
+
+#remove-btn2{
+	position: relative;
+	left: 52%;
+	color:white;
+}
+
+#remove-btn3{
+	position: relative;
+	left: 71%;
+	color:white;
+}
+
+#remove-btn:hover{
+	cursor:pointer;
+	color:gray;
+}
+#remove-btn2:hover{
+	cursor:pointer;
+	color:gray;
+}
+#remove-btn3:hover{
+	cursor:pointer;
+	color:gray;
+}
+
+.op{
+	width:98px;
+	height:70px;
+	background-color:white;
+	float:left;	
+	border-radius:5px;
+	overflow:hidden;
+	cursor: pointer;
+	text-decoration: none;
+}
+.op:hover{
+	background-color:ghostwhite;
+}
+
+.icon{
+ 	line-height:15px;
+ 	margin-left:14px;
+ 	color:gray;
+ 	font-size:14px;
+
+}
+
+.icon:hover{
+	font-size:14px;
+}
+
+.cutline{
+	position:relative;
+	top:10px;
+	width:1px;
+	height:30px;
+	border: 1px dashed lightgray;
+	float:left;
+
+}
+.hidden{
+	display:none;
+}
+.
+

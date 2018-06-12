@@ -1,0 +1,193 @@
+
+html {
+  height: 100%;
+}
+
+.close{
+    position:relative;
+    top:-15px;
+    right:-8px;
+}
+#login-wraper {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 35%;
+  left: 80%;
+  display: block;
+  margin-top: 180px;
+  margin-left: -320px;
+  padding: 20px;
+  width: 380px;
+  height: 350px;
+  background: #fafbfd ;
+  text-align: center;
+}
+.login-title{
+    font-size:22px;
+    font-weight: bold;
+    color:#008ac9;
+    margin:0px 25px;
+    height:50px;
+    line-height:50px;
+    border-bottom: 2px solid #008bc9;
+}
+.login-content-info{    
+    margin:20px 25px;
+    color:black;
+}
+.error-message{
+    width:86%;
+    margin-left:24px;
+    height:20px;
+}
+.errMsg{
+    text-align:left;
+    font-size:15px;
+    color:red;
+}
+.login-content-info-u{background:url(../img/login/per.png) no-repeat left center;}
+.login-content-info-p{background:url(../img/login/pwd.png) no-repeat left center;}
+.login-content-info-text{
+    width:100%;height:45px;border:1px solid #e3e4e6;padding:6px 35px;
+}
+.login-button-area{
+    margin:5px 25px 10px 25px;
+}
+.login-button-text{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    border:0px;
+    background-color: #008ac9;
+    font-size:16px;
+    font-weight:600;
+    color:#fff;
+}
+.login-remind-area{
+    margin:0px 25px;
+    text-align:left;
+    font-size:12px;
+    heigt:20px;
+    line-height: 20px;
+}
+/* line 102, ../sass/typica-login.scss */
+.login-form .body {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 106, ../sass/typica-login.scss */
+.login-form .footer {
+  margin-top: 20px;
+}
+/* line 108, ../sass/typica-login.scss */
+.login-form .footer .checkbox.inline {
+  display: inline;
+}
+/* line 110, ../sass/typica-login.scss */
+.login-form .footer .checkbox.inline input[type="checkbox"] {
+  float: none;
+  margin-top: -4px;
+}
+/* line 115, ../sass/typica-login.scss */
+.login-form .footer .btn {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-left: 15px;
+  padding: 7px 25px;
+  background-image: none;
+}
+
+/* login form */
+/* line 17, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+.login-form legend {
+  font-family: '微软雅黑','Lato', Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #333333;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* line 24, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+.login-form label {
+  font-family: '微软雅黑','Lato', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 300;
+}
+
+/* register form */
+/* line 32, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#register-form legend {
+  font-family: '微软雅黑','Lato', Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #333333;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 39, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#register-form label {
+  font-family: '微软雅黑','Lato', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 300;
+}
+
+/* register info */
+/* line 48, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#register-info h1 {
+  font-size: 42px;
+  font-family: '微软雅黑',"PT Sans", Arial, Helvetica, sans-serif;
+  line-height: 55px;
+  font-weight: 700;
+  text-align: right;
+  padding-bottom: 50px;
+  color: white;
+}
+/* line 57, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#register-info ul {
+  text-align: right;
+  color: white;
+  font-size: 24px;
+  font-family: '微软雅黑',"PT Sans", Arial, Helvetica, sans-serif;
+}
+
+/* footer */
+/* line 66, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+footer.navbar-fixed-bottom {
+  font-size: 16px;
+  font-family: '微软雅黑',"PT Sans", Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/* ######## */
+/* $QUERIES */
+/* ######## */
+/* Portrait tablet*/
+@media (max-width: 980px) {
+
+  /* line 21, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-wraper {
+    position: relative;
+    top: 0;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 495px) {
+  /* line 29, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-wraper {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+  }
+}

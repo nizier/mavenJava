@@ -1,0 +1,311 @@
+.info {
+    display: none;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 270px;
+    overflow: auto;
+    background: #fff;
+    position: absolute;
+    border: 1px solid #ccc;
+}
+.info-form{
+	padding:5px;
+	display: inline-block;
+}
+.info-form span{
+	text-align:right;
+	width:60px;
+	font-size:12px;
+	display: inline-block;
+}
+
+.info-form select{
+	position:relative;
+	left:5px;
+	float:right;
+	width:125px;
+	font-size:12px;
+	display: inline-block;
+}
+
+
+.info-form input{
+	float:right;
+	width:125px;
+	height:20px;
+	margin-left:10px;
+	display: inline-block;
+}
+
+.step-form{
+	padding:5px;
+	margin:5px;
+}
+.step-form span{
+	text-align:left;
+	font-size:14px;
+	line-height: 30px;
+	display: inline-block;
+}
+
+.step-form select{
+	width:80%;
+	height:30px;
+	font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 4px;
+    float: right;
+}
+
+
+.step-form input{
+	width:80%;
+	height:30px;
+	font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 4px;
+    float: right;
+}
+
+.step-form-hori{
+	padding:5px;
+	margin:5px;
+	display: inline-block;
+}
+.step-form-hori span{
+	text-align:left;
+	font-size:14px;
+	line-height: 30px;
+	display: inline-block;
+}
+
+.step-form-hori select{
+	width:80%;
+	height:30px;
+	font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 4px;
+    float: right;
+}
+
+
+.step-form-hori input{
+	width:55%;
+	height:30px;
+	font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 4px;
+    float: right;
+}
+
+
+.bus-info {
+    display: none;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 370px;
+    overflow: auto;
+    background: #fff;
+    position: absolute;
+    top: 12%;
+    border: 1px solid #ccc;
+}
+
+.route-plan-tit:hover{
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+.route-plan-tit {
+	background-color: rgba(10,10,10,0.1);
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    color: #0f89f5;
+    font-size: 14px;
+}
+
+.air-plan-tit:hover{
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+.air-plan-tit {
+	background-color: rgba(10,10,10,0.1);
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    color: #0f89f5;
+    font-size: 14px;
+}
+
+.air-plan-tit span {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    font-weight: normal;
+}
+
+.route-plan {
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.route-plan-tit span {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    font-weight: normal;
+}
+
+.route-plan-cnt {
+	border-left: 2px gray solid;
+    padding-left: 0px;
+}
+
+.route-plan-box1 {
+    background: url(/hbcx/img/index/info/plan_border.png) no-repeat 20px bottom;
+}
+
+.route-plan-start {
+    height: 26px;
+    line-height: 26px;
+}
+
+.route-plan-start-ico {
+    float: left;
+    width: 16px;
+    height: 26px;
+    background: url(/hbcx/img/index/info/plan_start.png) no-repeat 1px 8px;
+}
+
+.route-plan-start {
+    height: 26px;
+    line-height: 26px;
+}
+
+.route-plan-txt {
+    color: #333;
+}
+.route-plan-txt input{
+    position: relative;
+    left:30px;
+}
+
+.route-plan-walk {
+    height: 31px;
+    line-height: 31px;
+}
+
+.route-plan-walk {
+    height: 31px;
+    line-height: 31px;
+}
+
+.route-plan-walk-ico {
+    float: left;
+    width: 16px;
+    height: 31px;
+    background: url(/hbcx/img/index/info/plan_walk.png) no-repeat -1px center;
+}
+
+.route-plan-walk-txt {
+    color: #333;
+}
+
+.route-plan-line-stop1 {
+    height: 24px;
+    line-height: 24px;
+    /* color: #0f89f5; */
+    padding-left: 20px;
+    background: url(/hbcx/img/index/info/plan_bus_start.png) no-repeat 0px center;
+}
+
+line-stop2 a {
+    color: #0f89f5;
+}
+
+.route-plan-line-stop label {
+    margin-right: 3px;
+    float: right;
+}
+user agent stylesheet
+label {
+    cursor: default;
+}
+
+.route-plan-line-stop2 {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 20px;
+    background: url(/hbcx/img/index/info/plan_bus_end.png) no-repeat 0px center;
+}
+
+.route-plan-line-stop1 a, .route-plan-line-stop2 a {
+    color: #0f89f5;
+}
+
+.route-plan-line-stop2 {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 20px;
+    background: url(/hbcx/img/index/info/plan_bus_end.png) no-repeat 0px center;
+}
+
+.route-plan-end-txt {
+    color: #333;
+    font-weight: bold;
+}
+
+.route-plan-end-ico {
+    float: left;
+    width: 16px;
+    height: 26px;
+    background: url(/hbcx/img/index/info/plan_end.png) no-repeat 1px -3px;
+}
+
+.fold {
+	display: none  !important;
+}
+
+.unfold {
+	display: block !important;
+}
+
+.getPosBtn{
+	position:relative;
+	top:7px;
+	width:80px;
+	height:25px;
+	background-color: white;
+	color:black;
+	text-align: center;
+	line-height: 25px;
+	cursor:pointer;
+	margin:0;
+	background-color: rgba(255,255,255,0.5);
+	border-radius:3px;
+	float:right;
+}
+

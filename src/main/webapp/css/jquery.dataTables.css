@@ -1,0 +1,66 @@
+/*
+ * Table styles
+ */
+table.dataTable {
+    background: white none repeat scroll 0 0;
+    border-collapse: collapse;
+    border-spacing: 1;
+    font-size: 11px;
+    position: static;
+	font-family: "microsoft yahei",arial,tahoma,helvetica,sans-serif;
+	    top: 70px;
+}
+table.dataTable thead th,
+table.dataTable tfoot th {
+   font-weight: bold;
+   height: 23px;
+   line-height: 23px;
+   color:#000;
+   background-color: #f0f1f3;
+}
+
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+table.dataTable thead .sorting {
+  background-image: url("images/sort_both.png");
+}
+table.dataTable thead .sorting_asc {
+  background-image: url("images/sort_asc.png");
+}
+table.dataTable thead .sorting_desc {
+  background-image: url("images/sort_desc.png");
+}
+table.dataTable thead .sorting_asc_disabled {
+  background-image: url("images/sort_asc_disabled.png");
+}
+table.dataTable thead .sorting_desc_disabled {
+  background-image: url("images/sort_desc_disabled.png");
+}
+table.dataTable tbody tr {
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    height: 23px;
+    line-height: 23px;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    font-weight: normal;
+    padding-left: 10px;
+    position: relative;
+}
+
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+    background: #3f88e7 none repeat scroll 0 0;
+    color: white;
+    cursor: pointer;
+}
+
+

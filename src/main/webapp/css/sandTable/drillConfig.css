@@ -1,0 +1,171 @@
+.no-blank{
+	padding:0;
+	margin:0;
+}
+.period-container{
+	min-height:120px;
+	width:100%;
+	padding:5px;
+	border-radius:5px;
+	border: 1px solid gray;
+	margin-bottom:10px;
+}
+
+.period-title{
+	height:25px;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left:1em;
+}
+
+.period-cut-off{
+	width:60%;
+	height:2px;
+	background: linear-gradient(to right,gray, white);
+}
+
+.period-body{
+	text-align: center;
+
+}
+
+.flow-container{
+	min-height: 35px;
+	width:100%;
+	border:1px solid lightgray;
+	border-left: 5px solid silver;
+	display: inline-block;
+}
+
+.flow-container:hover{
+	border-left: 5px solid darkblue;
+	background-color: rgba(192, 192, 192,0.2);
+}
+
+.flow-body{
+	height: auto;
+}
+
+.flow-title{
+	text-align: left;
+	height:35px;
+	line-height: 35px;
+	color: rgb(40,40,40);
+}
+
+.period-add-btn{
+	width:150px;
+	height:100px;
+	margin:0 auto;
+	line-height: 80px;
+	font-size: 120px;
+	color:lightgray;
+	border: 2px solid lightgray;
+	background-color: rgba(211, 211, 211,0.1);
+	cursor:pointer;
+	transition: color 0.1s,border 0.1s;
+	vertical-align: middle;
+}
+
+.period-add-btn:hover{
+	color: gray;
+	border:gray 2px solid;
+}
+
+
+.period-del-btn{
+	width:50px;
+	height:25px;
+	color: #fff;
+	float:right;
+	font-weight:normal;
+    background-color: #F3565D;
+    border-color: #F3565D;
+    border-width: 1px;
+    font-size: 14px;
+    outline: none !important;
+    background-image: none !important;
+    filter: none;
+    border-radius:4px;
+    margin-bottom:5px;
+}
+
+.flow-add-btn:hover{
+	color: gray;
+	border:gray 2px solid;
+}
+
+.flow-del-btn:hover{
+	color: gray;
+	border:gray 2px solid;
+}
+
+.flow-add-btn{
+	margin-top:8px;
+	margin-right:8px;
+	width:20px;
+	height:20px;
+	float:right;
+	line-height: 14px;
+	font-size: 20px;
+	color:gray;
+	border: 2px solid gray;
+	background-color: rgba(211, 211, 211,0.1);
+	cursor:pointer;
+	transition: color 0.1s,border 0.1s;
+	vertical-align: middle;
+}
+
+.flow-del-btn{
+	margin-top:8px;
+	margin-right:8px;
+	width:20px;
+	height:20px;
+	float: right;
+	line-height: 14px;
+	font-size: 20px;
+	color:gray;
+	border: 2px solid gray;
+	background-color: rgba(211, 211, 211,0.1);
+	cursor:pointer;
+	transition: color 0.1s,border 0.1s;
+}
+
+.flow-select{
+	width: 80px;
+	height:25px;
+	border-radius: 3px;
+
+}
+
+.flow-select option{
+	text-align: center;
+}
+
+.text-op{
+	width: 85%;
+	height:25px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	margin-left: 1em;
+}
+
+.time{
+	width:50px;
+	text-align:center;
+	font-size: 16px;
+	border-radius: 4px;
+	border:none;
+}
+
+.map-op-btn{
+	margin-left:5px;
+	width:50px;
+	height:25px;
+	border-radius:3px;
+}
+.table-wrapper{
+	height:35px;
+}
+
+

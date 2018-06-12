@@ -1,0 +1,18 @@
+@charset "utf-8";
+.order .arrow_up{top:5px;left:58px;}
+.order .arrow_down{top:15px;left:58px;}
+
+.order1 .arrow_up{top:5px;left:65px;}
+.order1 .arrow_down{top:15px;left:65px;}
+
+.flightMsgDetail{width:1125px;background:#fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.5);position:fixed;
+    left: calc(calc(100% - 1125px) / 2 );
+    top: calc(calc(100% - 244px) / 2 );
+    /*top: 295px;*/
+    border:solid 1px #c8c8c8;
+    overflow: auto;}
+.flightMsgDetail::before{content:'';display: block;width:19px;height:13px;background-image:url(../../image1/icon/icon1.png);position:absolute;top:-13px;left:56px;z-index:2;}
+
+.btn_group div{ display: inline-block; padding-left:10px;width:116px;height:40px;line-height: 40px;color:#969696;font-size: 16px;border:solid 1px #dddddd;}
+.btn_group div .btn{border:0 !important;margin-right: 10px;}

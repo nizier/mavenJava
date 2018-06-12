@@ -1,0 +1,75 @@
+body {
+    font-size: 14px;
+    line-height: 1.32;
+    font-family: 'Microsoft Yahei';
+    color: #333333;
+    background: #f5f7fa;
+    overflow: hidden;
+    width:100%;
+    height:100%
+}
+
+.wrapper{width:100%;height:100%;display:flex;display: -webkit-flex;flex-direction:column;-webkit-flex-direction: column;flex-wrap:wrap}
+.wrapper>div{width:100%;padding:0 50px}
+
+.header{
+	width:100%;
+	height:48px;
+	background:#000814;
+	padding:0 40px
+}
+
+.header .logo{
+	width:150px;
+	height:48px;
+	float:left;
+	background:url(../img1/logo.png) left 10px no-repeat
+}
+
+.header .nav{
+	float:left;
+	margin-left:10px
+}
+
+.header .nav ul li{
+	width:130px;
+	float:left;
+	position:relative
+}
+
+.header .nav ul li>a{
+	display:block;
+	line-height:48px;
+	color:#a0a0a0;
+	text-align:center;
+	cursor:pointer
+}
+
+.header .nav ul li .dropDown{
+	width:100%;
+	left:0;
+	top:48px;
+	position:absolute;
+	background:#828282;
+	display:none
+	}
+	
+.header .nav ul li.active>a{
+	color:#fff;
+	background:url(../img1/navActive.png) center 38px no-repeat;
+
+}
+/* 下拉表样式 暂时没有 */
+.header .nav ul li:hover .dropDown{display:block;z-index:100}
+.header .nav ul li .dropDown a{display:block;color:#fff;height:30px;line-height:30px;margin-bottom:1px;padding-left:30px;border-left:solid 5px transparent;cursor:pointer}
+.header .nav ul li .dropDown a.active,.header .nav ul li .dropDown a:hover{border-left:solid 5px #009cff;background:#c8c8c8;}
+/*  */
+
+.header .user{float:right;padding-top:13px}
+.header .user .item{float:left;height:22px;padding-left:12px;margin-right:3px;line-height:22px;color:#a0a0a0}
+.header .user .item>i{display:inline-block;float:left;width:22px;height:22px;margin-right:3px;}
+.header .user .item.name>i{background:url(../../img1/user_name.png) no-repeat;}
+.header .user .item.post>i{background:url(../../img1/user_post.png) no-repeat;}
+.header .user .item.logout>i{background:url(../../img1/user_logout.png) no-repeat;cursor:pointer}
+.header .user .item .postTag{float:left;}
+.header .user .item .postTag > a{font-size:12px;height:14px;border-bottom:solid 1px #a0a0a0;line-height:14px;padding-right:12px;background:url(../../image1/icon/user_arrowDown.png) right center no-repeat;color:#a0a0a0}

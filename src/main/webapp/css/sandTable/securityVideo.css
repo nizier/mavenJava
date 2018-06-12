@@ -1,0 +1,94 @@
+body{
+	font-family: '微软雅黑',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background: #FFF;
+}
+
+.page-content-wrapper .page-content {
+    padding: 8px 3px 0px;
+}
+
+.page-bar{
+	margin-bottom:10px;
+}
+
+.page-bar .page-breadcrumb > li > a, .page-bar .page-breadcrumb > li > span{
+	color:#000000;	
+}
+
+.col-md-9{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+table.table-bordered tbody td{
+	font-size: 14px;
+}
+.portlet > .portlet-body.blue-hoki, .portlet.blue-hoki{
+	background-color:#FFFFFF;
+}
+
+.form-horizontal .control-left-label{
+	margin-bottom: 0;
+    padding-top: 7px;
+	text-align:left;
+}
+.form-horizontal .control-left{
+	margin-bottom: 0;
+	text-align:left;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.select {
+	float: right;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 28px;
+	padding: 8px 0px 4px;
+	color: #FFF;
+}
+
+.caption ul {
+	padding-left: 30px;
+}
+
+.caption ul li {
+	display: inline-block;
+	border-right: 1px solid #ADCEF8;
+	padding-right: 6px;
+	font-size: 14px;
+}
+
+.caption ul li:last-child {
+	border-right: 0;
+}
+
+.caption ul li img {
+	width: 20px !important;
+	margin-right: 3px;
+}
+
+.tabSelect {
+	border: 1px solid #fff;
+	width: 50px;
+	float: left;
+	margin: 0 4px;
+	font-size: 14px;
+}
+
+.setul {
+	height: 45x;
+}
+
+.setul li a {
+	font-size: 12px;
+}
+
+.monitor_img{
+   padding:2px;
+   border:2px solid black;
+}
+

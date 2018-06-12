@@ -1,0 +1,17 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title></title>  
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>  
+</head>  
+<body>  
+<script language="JavaScript" type="text/javascript">
+function AddFace(NewCode) {
+document.all("txtMessage").focus();
+var sel = document.selection.createRange();
+sel.text=NewCode;
+return; }
+</script> 页面的代码摘录如下： <textarea id="txtMessage" rows=10 cols=100> 先将光标置在这里任意处，然后点击按钮，看内容变化。 </textarea> <br><a href="javascript:AddFace(':)')"><img border=0 src="SMILE.GIF" /></a>
+</body>  
+</html> 
